@@ -3,7 +3,7 @@ import "./FormLogin.css";
 
 function FormLogin(){
 
-    const [role, setRole] = useState("customer");
+    const [role] = useState("customer");
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
